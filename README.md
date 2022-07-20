@@ -1,4 +1,4 @@
-#Selector de Colores
+# Selector de Colores
 
-##Instalaciones
+## Instalaciones
 Vite, Express, react-icons, react-color, mysql2, morgan, axios, nodemon, cors.
