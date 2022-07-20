@@ -1,0 +1,32 @@
+.nombrar {
+  display: flex;
+  flex-direction: column;
+}
+
+.label-buscar {
+  color: #ffffff;
+  font-size: 800;
+}
+
+.input-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-buscar {
+  width: 15rem;
+  padding: 0.5rem;
+  outline: none;
+  border: 0.2rem solid #ffffff;
+  border-radius: 9px;
+  color: #ffffff;
+  background: transparent;
+}
+
+.button-buscar {
+  display: grid;
+  place-content: center;
+  padding: 1rem;
+  border-radius: 9px;
+  background: #ffffff;
+}

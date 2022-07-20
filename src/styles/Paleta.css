@@ -1,0 +1,30 @@
+.paleta {
+  display: flex;
+  margin-block: 2rem;
+  gap: 1rem
+}
+
+.color {
+  display: grid;
+  place-content: center;
+  height: 3rem;
+  width: 3rem;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  color: #ffffff;
+  background: linear-gradient(-45deg,
+      #404040,
+      #b0b0b0,
+      #404040,
+      #b0b0b0,
+      #404040,
+      #b0b0b0,
+      #404040,
+      #b0b0b0,
+      #404040,
+      #b0b0b0);
+}
+
+.active {
+  transform: scale(1.3)
+}
